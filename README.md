@@ -4,11 +4,17 @@
 This software is a numeric PDE solver for ionic cardiac models in 2D with real-time graphics. The program has two main solver modes: standard PDE solver, and symmetry-reduction solver for spiral waves.
 
 Screenshot of voltage dynamics with blood vessels:
+
 <img src=images/blood_vessels.png height="500">
+
 Tip trajectory of a meandering spiral wave:
+
 <img src=images/tipCompare.png height="500">
+
 Tip trajectory of a symmetry reduced spiral wave:
+
 <img src=images/tipSYM2.png height="500">
+
 
 ## This software was developerd by: **Hector Augusto Velasco-Perez** @CHAOS Lab@Georgia Institute of Technology
 
