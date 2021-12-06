@@ -1,23 +1,24 @@
-## Y
+### Yolohtli
+## A cardiac electrophysiology partial differential equation solver
 
-This software isa numerico PDE solver for ionic cardia models in 2D with real-time graphics. The program is has three main functionalities: standard PDE solver, stadard solver with contour tracking for discordant alternans nodes, and a symmetry-reduction solver for spiral waves.
+This software is a numeric PDE solver for ionic cardiac models in 2D with real-time graphics. The program has two main solver modes: standard PDE solver, and symmetry-reduction solver for spiral waves.
 
 Methods used:
 - Solver:
 --  For the standar solver the integration is performed with 
 
-<img src=images/Voltagehot3D2.png height="500">
+<img src=images/blood_vessels.png height="500">
 <img src=images/tipCompare.png height="500">
 <img src=images/tipSYM2.png height="500">
 
 ## This software was developerd by: **Hector Augusto Velasco-Perez** @CHAOS Lab@Georgia Institute of Technology
 
 ### Special thanks to:
-- Noah DeTal
+- Dr. Noah DeTal
 - Dr. @Flavio Fenton
 
 ## Software general decription
-This software allows you to solve the Karma (FK) model with a diffusive coupling in a 2D domain with a constant rotating conducting anisotropy. The software allows for input/output files and real time graphics for user interactivity. This software is implemented in CUDA/C.
+This software allows you to solve reaction-diffusion models PDE models with a diffusive coupling in a 2D domain. This software is implemented in CUDA/C.
 
 ## Other features
 - Time integration: first order explicit Euler method
