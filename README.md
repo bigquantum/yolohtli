@@ -3,10 +3,6 @@
 
 This software is a numeric PDE solver for ionic cardiac models in 2D with real-time graphics. The program has two main solver modes: standard PDE solver, and symmetry-reduction solver for spiral waves.
 
-Methods used:
-- Solver:
---  For the standar solver the integration is performed with 
-
 <img src=images/blood_vessels.png height="500">
 <img src=images/tipCompare.png height="500">
 <img src=images/tipSYM2.png height="500">
